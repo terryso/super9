@@ -1,0 +1,170 @@
+.create-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background: #fff;
+  padding: 20px 30px 20px 30px;
+}
+
+.follow {
+  width: 300px;
+}
+
+.link-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%;
+
+  .h {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    .title {
+      font-size: 30px;
+      color: #092B44;
+      font-weight: 500;
+    }
+
+    .r {
+      display: flex;
+      align-items: center;
+
+      .brief {
+        font-size: 28px;
+        color: #9FACB4;
+      }
+
+      .ds-more {
+        font-size: 24px;
+        color: #9FACB4;
+      }
+    }
+  }
+
+  .input-link {
+    width: 100%;
+    height: 200px;
+    background: #F1F2F5;
+    margin-top: 12px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .operate-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: #F1F2F5;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0 20px 20px 0;
+
+    .clear {
+      font-size: 26px;
+      color: var(--theme-color);
+      margin-right: 20px;
+    }
+
+    .paste {
+      width: 110px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 26px;
+      color: #fff;
+      background: var(--theme-color);
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .paste:active {
+      opacity: 0.8;
+    }
+  }
+}
+
+.no-save {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #B6CCFF;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.save {
+  background: var(--theme-color);
+}
+
+.save:active {
+  opacity: 0.8;
+}
+
+.copy-link {
+  background: red;
+}
+
+.copy-link:active {
+  opacity: 0.8;
+}
+
+.contact {
+  background: #50a938;
+}
+
+.contact:active {
+  opacity: 0.8;
+}
+
+.tip {
+  display: none;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.tip .title {
+  font-size: 22px;
+  color: #9FACB4;
+}
+
+.tip .theme-title {
+  font-size: 22px;
+  color: #0C67F6;
+}
+
+.tip .upgrade {
+  display: flex;
+  align-items: center;
+}
+
+.tip .upgrade .title {
+  font-size: 22px;
+  color: #9FACB4;
+}
+
+.tip .upgrade .theme-title {
+  font-size: 22px;
+  color: #0C67F6;
+  margin-left: 5px;
+}
+
+.place-style {
+  font-size: 30px;
+  color: #9FACB4;
+}
+
+.preview {
+  margin-top: 30px;
+  width: 100%;
+
+  video {
+    width: 100%;
+  }
+}
