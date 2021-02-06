@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+
+  .banner {
+    width: 750px;
+    height: 260px;
+  }
+
+  .help {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-right: 20px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px;
+    border: 1px;
+    vertical-align: middle;
+    display: flex;
+    color: #3865FF;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .contact {
+    position: absolute;
+    top: 125px;
+    right: 20px;
+  }
+}

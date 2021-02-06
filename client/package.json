@@ -1,0 +1,60 @@
+{
+  "name": "super9",
+  "version": "1.0.0",
+  "private": true,
+  "description": "神奇九转是一套判断股票高低点的择时策略，利用上涨9信号、下跌9信号，可把握个股上涨、下跌趋势，发现个股拐点，把握抄底逃顶机会。",
+  "templateInfo": {
+    "name": "wxcloud",
+    "typescript": false,
+    "css": "sass"
+  },
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "build:swan": "taro build --type swan",
+    "build:alipay": "taro build --type alipay",
+    "build:tt": "taro build --type tt",
+    "build:h5": "taro build --type h5",
+    "build:rn": "taro build --type rn",
+    "build:qq": "taro build --type qq",
+    "build:jd": "taro build --type jd",
+    "build:quickapp": "taro build --type quickapp",
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "dev:swan": "npm run build:swan -- --watch",
+    "dev:alipay": "npm run build:alipay -- --watch",
+    "dev:tt": "npm run build:tt -- --watch",
+    "dev:h5": "npm run build:h5 -- --watch",
+    "dev:rn": "npm run build:rn -- --watch",
+    "dev:qq": "npm run build:qq -- --watch",
+    "dev:jd": "npm run build:jd -- --watch",
+    "dev:quickapp": "npm run build:quickapp -- --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "@tarojs/cli": "3.0.25",
+    "@tarojs/components": "3.0.25",
+    "@tarojs/runtime": "3.0.25",
+    "@tarojs/taro": "3.0.25",
+    "eslint-plugin-taro": "^3.0.25",
+    "lodash": "4.17.15",
+    "miniprogram-table-component": "^1.1.0",
+    "npm": "^6.14.11",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0",
+    "vue": "^2.5.0",
+    "vue-template-compiler": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@tarojs/mini-runner": "3.0.25",
+    "@tarojs/webpack-runner": "3.0.25",
+    "@types/webpack-env": "^1.13.6",
+    "babel-preset-taro": "3.0.25",
+    "eslint": "^6.8.0",
+    "eslint-config-taro": "3.0.25",
+    "eslint-plugin-vue": "^6.x",
+    "stylelint": "9.3.0",
+    "vue-loader": "^15.9.2"
+  }
+}
